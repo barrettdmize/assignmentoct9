@@ -1,0 +1,151 @@
+body {
+  background-image:url(https://github.com/TIY-Charleston-Front-End-Oct2015/assignments/blob/master/peralta/assets/bg.jpg?raw=true);
+}
+
+
+.pagecontainer{
+  position: relative;
+  width: 70%;
+}
+
+.pagecontainer2 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+nav {
+  vertical-align: text-top;
+  font-family: geneva;
+  font-size: 14px;
+  color: white;
+  position: relative;
+  top: 40px;
+  left: 950px;
+}
+
+.social {
+  vertical-align;
+  position: relative;
+  top: 5px;
+  left: 1100px;
+}
+
+.section-nav {
+  font-family: geneva;
+  font-size: 14px;
+  color: white;
+}
+
+.section-nav ul{
+  display: inline-block;
+}
+
+.section-nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  background-color: red;
+  padding: 5px 40px 5px 40px;
+  transition: all .5s ease-in-out;
+  -webkit-animation: demoAnimate 2.5s animate infinite;
+}
+
+@-webkit-keyframes demoAnimate{
+  0% {background-color: white;}
+  25%{background-color: blue;}
+  50%{background-color: green;}
+  75%{background-color: red;}
+  100%{background-color: white;}
+}
+
+.main-image-container{
+  background-image:url(https://github.com/TIY-Charleston-Front-End-Oct2015/assignments/blob/master/peralta/assets/top-image.png?raw=true);
+  width: 100%;
+  background-size: 100%;
+  border: solid white .35em;
+}
+
+h1{
+  font-size: 10px;
+  color: white;
+
+}
+/* 3 WHITE COLUMNS WITH TEXT */
+
+.3columns {
+
+}
+
+
+.cols {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.col-1 {
+  width: 32%;
+  display: inline-block;
+  background-color: white;
+}
+
+/* WHITE BUTTONS */
+
+.buttons {
+ margin: 8px 0 12px 0;
+ width: 100%;
+ text-align: center;
+ }
+
+/* SKATER PROFILE STUFF */
+
+
+
+.imagecontainer2 {
+vertical-align: top;
+width: 66%;
+display: inline-block;
+}
+
+.col-3 {
+  background: url('https://github.com/TIY-Charleston-Front-End-Oct2015/assignments/blob/master/peralta/assets/sk8er-1.png?raw=true');
+ width: 33%;
+ display: inline-block;
+}
+ .left-top {
+   width: 49%;
+   display: inline-block;
+   height: 150px;
+ }
+
+ .lance-pic {
+    background: url('https://github.com/TIY-Charleston-Front-End-Oct2015/assignments/blob/master/peralta/assets/sk8er-4.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .rodney-pic {
+    background: url('https://github.com/TIY-Charleston-Front-End-Oct2015/assignments/blob/master/peralta/assets/sk8er-3.png?raw=true');
+    background-image: back
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .bottom-pic {
+    background: url('https://github.com/TIY-Charleston-Front-End-Oct2015/assignments/blob/master/peralta/assets/sk8er-1.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 99%;
+    height: 145px;
+  }
+
+  .col-4 {
+      display: inline-block;
+      background: url('https://github.com/TIY-Charleston-Front-End-Oct2015/assignments/blob/master/peralta/assets/sk8er-1.png?raw=true');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height:300px;
+      width: 33%;
+    }

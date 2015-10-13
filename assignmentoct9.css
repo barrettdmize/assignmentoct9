@@ -16,13 +16,15 @@ body {
 
 nav {
   vertical-align: text-top;
-  font-family: geneva;
+  font-family: <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800|Didact+Gothic' rel='stylesheet' type='text/css'>;
   font-size: 14px;
   color: white;
   position: relative;
   top: 40px;
   left: 950px;
 }
+
+
 
 .social {
   vertical-align;
@@ -31,9 +33,10 @@ nav {
   left: 1100px;
 }
 
+
 .section-nav {
   font-family: geneva;
-  font-size: 14px;
+  font-size: 12px;
   color: white;
 }
 
@@ -46,8 +49,10 @@ nav {
   margin: 0 10px;
   background-color: red;
   padding: 5px 40px 5px 40px;
+  box-shadow: grey;
   transition: all .5s ease-in-out;
-  -webkit-animation: demoAnimate 2.5s animate infinite;
+
+
 }
 
 @-webkit-keyframes demoAnimate{
@@ -66,8 +71,8 @@ nav {
 }
 
 h1{
-  font-size: 10px;
-  color: white;
+  font-size: 15px;
+  color: black;
 
 }
 /* 3 WHITE COLUMNS WITH TEXT */
@@ -80,12 +85,14 @@ h1{
 .cols {
   vertical-align: top;
   display: inline-block;
+
 }
 
 .col-1 {
-  width: 32%;
+  width: 30%;
   display: inline-block;
   background-color: white;
+  text-align: center;
 }
 
 /* WHITE BUTTONS */
@@ -104,13 +111,23 @@ h1{
 vertical-align: top;
 width: 66%;
 display: inline-block;
+font-color: white;
 }
+
 
 .col-3 {
   background: url('https://github.com/TIY-Charleston-Front-End-Oct2015/assignments/blob/master/peralta/assets/sk8er-1.png?raw=true');
  width: 33%;
  display: inline-block;
+ border: solid white .35em;
+
 }
+
+.skater-pics span {
+  white;
+}
+
+
  .left-top {
    width: 49%;
    display: inline-block;
@@ -122,6 +139,8 @@ display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    border: solid white .35em;
+    width: 45%;
   }
   .rodney-pic {
     background: url('https://github.com/TIY-Charleston-Front-End-Oct2015/assignments/blob/master/peralta/assets/sk8er-3.png?raw=true');
@@ -129,6 +148,8 @@ display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    border: solid white .35em;
+    width: 45%;
   }
 
   .bottom-pic {
@@ -136,16 +157,58 @@ display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 99%;
+    width: 93%;
     height: 145px;
+    border: solid white .35em;
   }
 
   .col-4 {
       display: inline-block;
-      background: url('https://github.com/TIY-Charleston-Front-End-Oct2015/assignments/blob/master/peralta/assets/sk8er-1.png?raw=true');
+      background: url('https://github.com/TIY-Charleston-Front-End-Oct2015/assignments/blob/master/peralta/assets/sk8er-2.png?raw=true');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
       height:300px;
-      width: 33%;
+      width: 30%;
+      border: solid white .35em;
     }
+
+.col-4 span {
+  color: white;
+}
+
+    /* SKATEBOARDS */
+
+    .skateboardbox {
+      background-color: white;
+      margin-top: 10px;
+    }
+
+    .skateboards>img {
+      background-color: white;
+      margin-left: 17px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+
+    }
+    .skateboards > img:hover {
+      transform: scale(.90);
+    }
+
+/* FOOTER */
+
+footer {
+  background-color: white;
+  margin-left: 17px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.contactus {
+  width:48%;
+  display:inline-block;
+}
+.contactusform {
+  width: 48%;
+  display:inline-block;
+}
